@@ -1,0 +1,17 @@
+Create a program that uses variables to display the output below.
+
+
+OUTPUT : 
+
+My name is [your name], and I come from [your hometown/country]. I am [your age], and I look forward to being a part of this classroom.
+
+I am interested in [your hobbies], so when I am outside of the classroom and not engaged in academic activities, I usually engage in [your hobby] or [your hobby].
+
+My favorite subjects in school are [your favorite subjects] and my favorite extracurricular activities include [insert extracurricular activities].
+
+I am excited to be here with you and can’t wait for us to learn together. Please feel free to approach me with any questions you might have.
+
+Thank you for listening to me!
+
+
+PS : All inside the bracket is represents a variable.

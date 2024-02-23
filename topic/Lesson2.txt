@@ -1,0 +1,80 @@
+1. External JavaScript
+2. Variables
+3. Datatypes
+4. Concatenation
+5. Activity
+
+
+1. External JavaScript
+- External JavaScript is when the JavaScript Code(script) is written in another file having an extension .js 
+and then we link this file inside the <head> or <body> tag of our HTML file in which the code is to be added.
+
+2. Variables
+- Are temporary containers that can hold different types of data such as 
+* text
+* numbers
+* collections
+* objects
+* etc.
+
+- Variables can be named for easy read/write access by the programmer it is called an indetifier.
+ 
+ Indetifiers
+ - variable name that has been set by the programmer
+    1. Identifiers must be UNIQUE
+    2. Identifiers are CASE SENSITIVE
+    3. RESERVE KEYWORDS are NOT allowed as Indetifiers
+    4. Indetifiers MUST start with a LETTER,$ or_
+    5. Identifiers  CANNOT contain SPECIAL CHARACTERS
+
+
+ 4 ways of Declaring Variables
+    1. Automatically
+    2. Using var
+    3. Using let
+    4. Using const
+
+* Automatically
+-- Automatically variable automatically declare themselves.
+        x = 5;
+        y = 12.5;
+        z = "Hello World"
+
+* Using let
+-- Uses the let keyword, it cannot be redeclared. It is  preferred to be used by default when declaring variables/
+        let x = 5;
+        let y = 12.5;
+        let z = "Hello World";
+
+* Using const
+-- Uses the const keyword, it cannot be redeclared these variables cannot be reassigned/changed.
+        const x = 5;
+        const y = 12.5;
+        const z = "Hello Word";
+
+
+* Using var
+-- Uses the var keyword, it can be redeclared and shoukd only be used when you want to support older browsers.
+        var x = 5;
+        var y = 12.5;
+        var z = "Hello Word";
+
+
+
+3. Data types
+- The types of data that the variable is currently holding.
+    1. string
+    2. number
+    3. boolean
+    4. undefined
+    5. null
+    6. object
+    7. bigint
+    8. symbol
+
+
+4. Concatenation
+- Joining two or more strings together.
+"Hello" + "World"
+"Answer : " + 12
+"PI : " + 3.14
