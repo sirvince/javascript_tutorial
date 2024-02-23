@@ -1,0 +1,33 @@
+Link : https://www.youtube.com/watch?v=V01uCwftQ5o&list=PLVnJhHoKgEmp5SRFPKsy61BeWozI3mwcV
+
+1. What is JavaScript
+2. Setup IDE
+3. Using <script>
+4. Using consolo.log()
+5. First "Hello World"
+
+
+1. What is JavaScript?
+- JavaScript is a programming language for websites. It can manipulate both HTML and CSS.
+- It can perform logical checks, calculation, modify existing HTML and CSS codes and more.
+- It is the most popular programming language as of the moment.
+
+
+2. Text Editor
+- Any software used to edi text. Other text editors are especially made for coding that incorporates colored text for a certain language like JavaScript,
+it may be called as an Integrated Development Environment (IDE).
+
+* Notepad
+* Notepad++(IDE)
+* Visual Studio Code or VSCode (IDE)
+
+
+3. <script> Tag
+- The <script> tag allow us to write JavaScript code inside of our HTML File.
+
+4. console.log()
+- This code display a log in the developer console of browsers.
+
+5. document.getElementById()
+- This code retrieves an element from our HTML using its ID and lets us manipulate its properties/attributes
+* document.getElementById("someid")
