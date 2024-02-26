@@ -1,0 +1,98 @@
+Numbers and Operator
+
+1. Numbers
+2. Convert String to Numbers
+3. Arithmetic Operators
+4. PEMDAS
+5. Shorthand Operators
+6. Increment / Decrement
+
+
+1. Numbers
+    One of the datatypes in JavaScript. It maybe a whole number or a decimal.
+
+    There are two types of numbers in JavaScript
+        Integer - Whole Numbers
+        Float - Decimal Numbers
+
+2. Convert String to Numbers
+    //Converts String to Integer
+    let num = parseInt("5");
+
+    //Converts String to Decimal
+    let pi = parseFloat("3.14")
+
+    Note : Unsuccessful conversions will result into a NAN (Not A Number) value.
+
+    Assignment Operator
+        Is used to put/assign values to variable
+            Operator : =
+            Function : Assignment
+            Example : let num = 12
+
+3. Arithmetic Operators
+    Operator that can perform mathematical equations on numbers.
+
+    Operator    Function            Example
+       +        Addition            5 + 5
+       -        Subraction          5 - 5
+       *        Multiplication      5 * 5
+       /        Division            5 / 5
+       **       Exponent            5 ** 5
+       %        Modulus (Remainder) 5 % 5
+
+
+3. PEMDAS
+    PEMDAS is followed in the order of precedence.
+
+    1. Parentheses
+    2. Exponent
+    3. Multiplication
+    4. Division
+    5. Addition
+    6. Subraction
+
+4. Shorthand Operators
+    Performs an Arithmetic Operator to a variable and assign it to itself.
+
+    Operator : +=
+    Usage : x += 5
+    Same as : x = x + 5       
+
+    Operator : *=
+    Usage : x *= 5
+    Same as : x = x * 5     
+
+    Operator : /=
+    Usage : x /= 5
+    Same as : x = x / 5
+
+    Operator : **=
+    Usage : x **= 5
+    Same as : x = x ** 5
+
+    Operator : %=
+    Usage : x %= 5
+    Same as : x = x % 5
+
+
+6. Increment / Decrement
+    Adds / Subracts 1 to a variable
+
+    Operator : ++
+    Usage : ++x or x++
+    Description : adds 1
+
+    Operator : --
+    Usage : --x or x--
+    Description : Subracts 1
+
+    //Prefix
+    let x = 0;
+    console.log(++x) // output : 1
+    console.log(x) // output : 1
+
+    //Postfix
+    let x = 0;
+    console.log(x++) // output : 0
+    console.log(x) // output : 1
