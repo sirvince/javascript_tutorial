@@ -78,3 +78,4 @@ and then we link this file inside the <head> or <body> tag of our HTML file in w
 "Hello" + "World"
 "Answer : " + 12
 "PI : " + 3.14
+- Concatenation strings with other data types will automatically convert them into their string counterparts
