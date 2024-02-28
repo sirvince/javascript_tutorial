@@ -16,16 +16,31 @@ function playGame(playerChoice){
     }else{
         switch(playerChoice){
             case "rock":
-                result = (computerChoice === "scissors") ? "You Win!" : "You Lose!"
+                result = (computerChoice === "scissors") ? "YOU WIN!" : "YOU LOSE!"
                 break;
             case "paper" :
-                result = (computerChoice === "rock") ? "You Win!" : "You Lose!"
+                result = (computerChoice === "rock") ? "YOU WIN!" : "YOU LOSE!"
                 break;
             case "scissors" :
-                result = (computerChoice === "paper") ? "You Win!" : "You Lose!"
+                result = (computerChoice === "paper") ? "YOU WIN!" : "YOU LOSE!"
                 break;
                 
         }
+
+    }
+
+    playerDisplay.textContent = `PLAYER : ${playerChoice}`;
+    computerDisplay.textContent = `COMPUTER : ${computerChoice}`;
+    resultDisplay.textContent = result;
+    resultDisplay.classList.remove("greenText","redText");
+
+    switch(result){
+        case "YOU WIN!":
+            resultDisplay.classList.add("greenText");
+            break;
+        case "YOU LOSE!":
+            resultDisplay.classList.add("redText");
+            break;
 
     }
     console.log(result);
