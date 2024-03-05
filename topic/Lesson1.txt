@@ -17,9 +17,6 @@ Link : https://www.youtube.com/watch?v=V01uCwftQ5o&list=PLVnJhHoKgEmp5SRFPKsy61B
 - Any software used to edi text. Other text editors are especially made for coding that incorporates colored text for a certain language like JavaScript,
 it may be called as an Integrated Development Environment (IDE).
 
-* Notepad
-* Notepad++(IDE)
-* Visual Studio Code or VSCode (IDE)
 
 
 3. <script> Tag

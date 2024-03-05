@@ -50,7 +50,7 @@ Numbers and Operator
     3. Multiplication
     4. Division
     5. Addition
-    6. Subraction
+    6. Subtraction
 
 4. Shorthand Operators
     Performs an Arithmetic Operator to a variable and assign it to itself.
