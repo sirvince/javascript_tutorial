@@ -1,61 +1,59 @@
-let person = {
-  firstName : "Vince",
-  lastName : "Dallego",
-  age : 26,
-  hobbies : ["coding","eating","sleeping"],
-  pets: {
-    0 : {
-      name : "Shadow",
-      type : "Dog"
-    },
-    1 : {
-      name : "Mocha",
-      type : "Cat"
-    }
-  }
+let age = 5;
+
+let welcome = (age < 18) ?
+  () => console.log('Baby') :
+  () => console.log('Adult');
+
+welcome(); // Baby
+
+
+
+
+
+let greet = x => console.log(x);
+greet(); // Hello
+
+
+
+
+
+//Function Expression
+let sum = function (num1,num2){
+  return num1 + num2;
+}
+//Arrow Function
+let sum1 = (num1,num2) => num1 + num2;
+
+//difference of two numbers
+const difference = function(num1,num2){
+  return num1 - num2;
 }
 
-// console.log(person["pets"][0]["name"]);
-// console.log(person.pets[0].name);
 
+let number1 = 10;
+let number2 = 20;
+console.log("sum",sum1(number1,number2));
+console.log("difference",difference(number1,number2));
+console.log("product",product(number1,number2));
+console.log("quotient",quotient(number1,number2));
 
-// console.log(person);
+// //sum of two numbers
+// function sum(num1,num2){
+//   return num1 * num2;
+// }
 
+// //difference of two numbers
+// function difference(num1,num2){
+//   return num1 - num2;
+// }
 
-//overide value
+//product of two numbers
+function product(num1,num2){
+  return num1 * num2;
+}
 
-let students = [
-  {
-    firstName : "Vince",
-    lastName : "Dallego",
-    age : 26
-  },
-  {
-    firstName : "Rhoel",
-    lastName : "Sarino",
-    age : 24
-  },
-  {
-    firstName : "Jonas",
-    lastName : "Ferrer",
-    age : 26
-  },
-]
-console.log(students[0]);
-console.log(students[0].firstName);
+//quotient of two numbers
+function quotient(num1,num2){
+  return num1 / num2;
+}
 
-
-
-// let strStudent = JSON.stringify(student);
-// console.log(strStudent);
-
-
-// let strStudent = `{"firstName": "Vince" "lastName": "Dallego","age": 26}`;
-// let student = JSON.parse(strStudent);
-// console.log(student);
-
-
-//Only works on "String" key
-// console.log(student.firstName);
-// console.log(student.lastName);
-// console.log(student.age);
