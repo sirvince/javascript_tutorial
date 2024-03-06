@@ -1,0 +1,6 @@
+Create Number Guessing Game
+
+1. Enter a Number not less than 0 and greather than 100.
+2. Display "TOO LOW! TRY AGAIN"
+3. Display "TOO LOW! TRY AGAIN"
+4. 
